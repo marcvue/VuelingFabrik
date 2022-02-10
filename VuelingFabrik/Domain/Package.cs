@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace VuelingFabrik.Domain
 {
-    class Package
+    class Package : Component
     {
+        //no está clean, porque en realidad tendría que haber hecho
+        //subcomponent como interfaz. Ahora el package tiene propiedades
+        //que no molan.
     }
 }

@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace VuelingFabrik.Domain
 {
-    public abstract class Subcomponent
+    class Acero : Subcomponent
     {
-
-        public abstract double GetPrice();
-    
+        public override double GetPrice()
+        {
+            return 33.03;
+        }
     }
 }
